@@ -1,2 +1,2 @@
-# Calculator with Dark-mode Functionality
+# Calculator with Dark Mode Functionality
 Built using HTML,CSS and JavaScript
