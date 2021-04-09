@@ -79,6 +79,7 @@
   body {
     color: var(--font-color);
     background-image: var(--bg-image);
+    background-size: 100% 100%;
     background-color: var(--bg-color);
     margin: 0 2rem 0;
     font-family: sans-serif;
@@ -117,6 +118,13 @@
     /* OTHER STYLING */
     margin: 0;
     font-size: 1.5rem;
+  }
+
+  h2 {
+    color: #918a95;
+    margin: 0;
+    padding: 0.25rem 0 0;
+    font-size: 14px;
   }
 
   /* TOGGLE  */
