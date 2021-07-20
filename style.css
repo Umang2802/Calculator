@@ -28,21 +28,24 @@
     display: grid;
     justify-content: center;
     align-content: center;
-    min-height: 60vh;
-    grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    min-height: 50vh;
+    grid-template-columns: repeat(4, 85px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 75px);
   }  
 
 .calculator-grid > button {
     color:var(--font-color);
     cursor: pointer;
-    font-size: 2rem;
+    font-size: 1.6rem;
     outline: none;
     background-color: var(--bg-color);
+    border-radius: 10px;
+    margin: 5px;
 }
 
 .calculator-grid > button:hover {
     background-color: rgba(61, 60, 60, 0.9);
+    transition: all 0.3s ease-out;
   }
 
 .output {
